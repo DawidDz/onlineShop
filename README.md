@@ -18,7 +18,8 @@ This project includes the following options:
 * **displaying a list of products** 
 * **displaying products on promotion**
 * **displaying products with a loyalty discount**
-* **a view with a contact form**
-* **a view with the genesis and description of this shop**
+* **view with a contact form**
+* **view with the genesis and description of this shop**
+* **logout view**
 
 The entire project was based on the popular Bootstrap template - SB Admin 2.
