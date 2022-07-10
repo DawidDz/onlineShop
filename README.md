@@ -22,4 +22,5 @@ This project includes the following options:
 * **view with the genesis and description of this shop**
 * **logout view**
 
+
 The entire project was based on the popular Bootstrap template - SB Admin 2.
