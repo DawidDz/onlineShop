@@ -23,4 +23,5 @@ This project includes the following options:
 * **logout view**
 
 
+
 The entire project was based on the popular Bootstrap template - SB Admin 2.
