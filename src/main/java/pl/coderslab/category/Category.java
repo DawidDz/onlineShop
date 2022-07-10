@@ -2,7 +2,6 @@ package pl.coderslab.category;
 
 import lombok.Getter;
 import lombok.Setter;
-import pl.coderslab.products.Product;
 
 import javax.persistence.*;
 
@@ -15,6 +14,4 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String productCategory;
-    @OneToOne
-    private Product products;
 }

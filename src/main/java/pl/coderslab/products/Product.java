@@ -2,6 +2,7 @@ package pl.coderslab.products;
 
 import lombok.Getter;
 import lombok.Setter;
+import pl.coderslab.category.Category;
 
 import javax.persistence.*;
 
@@ -17,4 +18,6 @@ public class Product {
     private double price;
     private double quantity;
     private boolean newLimitedProduct;
+    @OneToOne
+    private Category category;
 }

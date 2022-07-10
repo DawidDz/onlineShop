@@ -20,7 +20,7 @@ public class Promotion {
     private double priceWithPromotion;
     @OneToMany
     @JoinTable(
-            name="products_on_promotion"
+            name = "products_on_promotion"
     )
     private List<Product> products = new ArrayList<>();
 }
