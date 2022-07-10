@@ -1,7 +1,7 @@
 # Online Shop
   -----------
 
-Online shop for ***"Piast"*** shop using: 
+Online shop for ***"Piast"*** shop using: Markup:
 1.**Java** :coffee:, 
 2.**JSP**, 
 3.**Spring** :leaves:, 
