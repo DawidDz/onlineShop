@@ -1,6 +1,6 @@
 # onlineShop
 
-Online shop for "Piast" shop using Java, JSP, Spring, Hibernate, MySQL, HTML5, Bootstrap.
+Online shop for "Piast" shop using **Java**, **JSP**, **Spring**, **Hibernate**, **MySQL**, **HTML5**, **Bootstrap**.
 
 This project includes the following options: **logging in**, **adding products**, **removing products**, **editing products**, **displaying a list of products**, 
 **displaying products on promotion**, **displaying products with a loyalty discount**, **a view with a contact form and a view with the genesis and description
