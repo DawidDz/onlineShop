@@ -24,4 +24,4 @@ This project includes the following options:
 
 -------
 The entire project was based on the popular Bootstrap template - SB Admin 2.
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+![Screenshot](screenshot.png)
