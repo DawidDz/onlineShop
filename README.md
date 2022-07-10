@@ -9,7 +9,7 @@ Online shop for ***"Piast"*** shop using:
 5. **MySQL** 
 6. **HTML5** 
 7. **Bootstrap**
-
+----------
 This project includes the following options: 
 * **logging in** 
 * **adding products** 
@@ -22,6 +22,5 @@ This project includes the following options:
 * **view with the genesis and description of this shop**
 * **logout view**
 
-
-
+-------
 The entire project was based on the popular Bootstrap template - SB Admin 2.
