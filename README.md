@@ -1,4 +1,4 @@
-# onlineShop
+##Online Shop##
 
 Online shop for ***"Piast"*** shop using **Java** :coffee:, **JSP**, **Spring** :leaves:, **Hibernate**, **MySQL**, **HTML5**, **Bootstrap**.
 
