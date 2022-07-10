@@ -24,4 +24,6 @@ This project includes the following options:
 
 -------
 The entire project was based on the popular Bootstrap template - SB Admin 2.
+
+
 ![Screenshot](screenshot.png)
