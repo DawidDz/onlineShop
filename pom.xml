@@ -15,8 +15,6 @@
     <description>boot</description>
     <properties>
         <java.version>18</java.version>
-        <!-- SQL dialect -->
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
     </properties>
     <dependencies>
         <dependency>

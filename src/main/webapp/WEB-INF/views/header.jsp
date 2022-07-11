@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,9 +32,9 @@
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/home/page">
-      <div class="sidebar-brand-icon rotate-n-15">
-        <i class="fas fa-laugh-wink"></i>
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+      <div class="sidebar-brand-icon">
+        <i class="fas fa-shopping-bag"></i>
       </div>
       <div class="sidebar-brand-text mx-3">
         Piast</div>
@@ -44,15 +45,22 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-      <a href="/home/page" class="nav-link">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a>
+      <a href="/" class="nav-link">
+        <i class="fas fa-directions"></i>
+        <span>Home page</span></a>
+      <a href="/about" class="nav-link">
+        <i class="fas fa-directions"></i>
+        <span>About us</span></a>
+      <a href="/" class="nav-link">
+        <i class="fas fa-directions"></i>
+        <span>Promotions</span></a>
+      <a href="/" class="nav-link">
+        <i class="fas fa-directions"></i>
+        <span>Loyalty discount</span></a>
+      <a href="/" class="nav-link">
+        <i class="fas fa-directions"></i>
+        <span>Contact</span></a>
     </li>
-
-    <!-- Sidebar Toggler (Sidebar) -->
-    <div class="text-center d-none d-md-inline">
-      <button class="rounded-circle border-0" id="sidebarToggle"></button>
-    </div>
 
   </ul>
   <!-- End of Sidebar -->
@@ -63,13 +71,11 @@
     <!-- Main Content -->
     <div id="content">
 
-
       <!-- Topbar -->
-      <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
+      <nav class="navbar navbar-expand navbar-light bg-purple topbar mb-4 static-top">
+        <h3 class="bg-green">Only here the lowest prices!</h3>
       </nav>
       <!-- End of Topbar -->
-
 
 
 </body>

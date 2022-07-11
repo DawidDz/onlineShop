@@ -6223,6 +6223,16 @@ button.bg-secondary:focus {
   background-color: #6b6d7d !important;
 }
 
+
+
+.bg-greener {
+  background-color: #1cc88a;
+  color: #ffe889;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
 .bg-success {
   background-color: #1cc88a !important;
 }
@@ -6284,11 +6294,21 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  color: #fff !important;
+}
+
+.bg-purple {
+  background-color: #942dba;
+  text-align: center;
 }
 
 .bg-transparent {
   background-color: transparent !important;
+}
+
+.bg-green {
+  text-align: center;
+  color: #1efa59;
 }
 
 .border {
@@ -6716,6 +6736,17 @@ button.bg-dark:focus {
 
 .align-items-start {
   align-items: flex-start !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .align-items-end {
@@ -9520,6 +9551,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar {
     display: none;
+    text-align: center;
   }
   .badge {
     border: 1px solid #000;
@@ -9936,6 +9968,7 @@ a:focus {
 
 .topbar {
   height: 4.375rem;
+  text-align: center;
 }
 
 .topbar #sidebarToggleTop {
@@ -10990,7 +11023,7 @@ footer.sticky-footer {
 
 footer.sticky-footer .copyright {
   line-height: 1;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 body.sidebar-toggled footer.sticky-footer {
