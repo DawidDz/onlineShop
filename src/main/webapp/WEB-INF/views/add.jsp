@@ -23,7 +23,7 @@
         <input path="name" placeholder="Product name" type="text"/>
         <input path="price" placeholder="Price" type="text"></input>
         <input path="quantity" placeholder="Quantity" type="text"></input>
-        <input path="newLimitedProduct" placeholder="Is new limited product? Write: T -> true or F -> false" type="text"/>
+        <input path="newLimitedProduct" placeholder="Is new limited product? Write: true or false" type="text"/>
         <input path="category" placeholder="Category id" type="text"></input>
         <input type="submit" value="Send" class="discovery-form-button">
     </form:form>

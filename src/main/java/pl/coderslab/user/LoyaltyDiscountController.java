@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class LoyaltyDiscountController {
 
     @RequestMapping(value = "/loyalty", method = RequestMethod.GET)
-    public String homeList() {
+    public String loyalty() {
         return "loyaltydis";
     }
 }

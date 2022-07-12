@@ -18,6 +18,34 @@
             <i class="fas fa-download fa-sm text-white-50"></i> Logout</a>
     </div>
     <br>
-<p class="text-center">dassssssssssss</p>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>New Limited Product</th>
+                    <th>Category</th>
+                    <th>Action</th>
+                </tr>
+                <c:forEach items="${products}" var="product">
+                    <tr>
+                        <td>${product.id}</td>
+                        <td>${product.name}</td>
+                        <td>${product.price}</td>
+                        <td>${product.quantity}</td>
+                        <td>${product.newLimitedProduct}</td>
+                        <td>${product.category}</td>
+                        <td>
+                            <a href='<c:url value="/delete?id=${product.id}"/>'>Delete</a>
+                            <a href='<c:url value="/edit?id=${product.id}"/>'>Edit</a>
+                        </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
+    </div>
     </div>
 <%@ include file="/WEB-INF/views/footer.jsp" %>
