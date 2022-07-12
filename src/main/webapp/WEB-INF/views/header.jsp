@@ -51,13 +51,16 @@
       <a href="/about" class="nav-link">
         <i class="fas fa-directions"></i>
         <span>About us</span></a>
-      <a href="/" class="nav-link">
+      <a href="/promotions" class="nav-link">
         <i class="fas fa-directions"></i>
         <span>Promotions</span></a>
-      <a href="/" class="nav-link">
+      <a href="/new" class="nav-link">
+        <i class="fas fa-directions"></i>
+        <span>What's new</span></a>
+      <a href="/loyalty" class="nav-link">
         <i class="fas fa-directions"></i>
         <span>Loyalty discount</span></a>
-      <a href="/" class="nav-link">
+      <a href="/contact" class="nav-link">
         <i class="fas fa-directions"></i>
         <span>Contact</span></a>
     </li>

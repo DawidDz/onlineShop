@@ -1,14 +1,14 @@
-package pl.coderslab;
+package pl.coderslab.whatIsNew;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class AboutUsController {
+public class WhatIsNewController {
 
-    @RequestMapping(value = "/about", method = RequestMethod.GET)
-    public String aboutUs() {
-        return "about";
+    @RequestMapping(value = "/new", method = RequestMethod.GET)
+    public String homeList() {
+        return "new";
     }
 }

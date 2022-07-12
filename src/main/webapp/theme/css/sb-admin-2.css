@@ -6734,6 +6734,11 @@ button.bg-dark:focus {
   justify-content: space-around !important;
 }
 
+.col-greenn {
+  color:green;
+  font-size: 2rem;
+}
+
 .align-items-start {
   align-items: flex-start !important;
 }
@@ -6744,6 +6749,14 @@ button.bg-dark:focus {
   margin-right: auto;
   width: 50%;
 }
+
+.col-red {
+  color: crimson;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
 
 .justify {
   text-align: justify;

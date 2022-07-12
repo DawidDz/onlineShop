@@ -1,14 +1,14 @@
-package pl.coderslab;
+package pl.coderslab.user;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class LogoutController {
+public class LoyaltyDiscountController {
 
-    @RequestMapping(value = "/logouted", method = RequestMethod.GET)
-    public String logout() {
-        return "logouted";
+    @RequestMapping(value = "/loyalty", method = RequestMethod.GET)
+    public String homeList() {
+        return "loyaltydis";
     }
 }
