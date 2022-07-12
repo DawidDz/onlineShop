@@ -6234,7 +6234,19 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #1cc88a !important;
+  color: #1cc88a !important;
+  font-weight: bold !important;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  color: #1efa59;
+  text-decoration: none;
 }
 
 a.bg-success:hover, a.bg-success:focus,
@@ -6264,7 +6276,10 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #e74a3b !important;
+  color: #e74a3b !important;
+  font-weight: bold !important;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -9828,15 +9843,15 @@ a:focus {
 }
 
 .text-gray-600 {
-  color: #858796 !important;
+  color: #c41323 !important;
 }
 
 .text-gray-700 {
-  color: #6e707e !important;
+  color: #109410 !important;
 }
 
 .text-gray-800 {
-  color: #5a5c69 !important;
+  color: #425041 !important;
 }
 
 .text-gray-900 {

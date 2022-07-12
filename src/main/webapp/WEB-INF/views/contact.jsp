@@ -20,7 +20,7 @@
             <i class="fas fa-download fa-sm text-white-50"></i> Logout</a>
     </div>
     <%--@elvariable id="user" type="user"--%>
-    <form:form action="/formsuccess" method="post" modelAttribute="user" class="discovery-form">
+    <form:form action="conform" method="post" modelAttribute="user" class="discovery-form">
         <input path="name" placeholder="First name" type="text"/>
         <input path="surname" placeholder="Last name" type="text"/>
         <input path="email" placeholder="E-mail, e.g. example@gmail.com" type="email"/>

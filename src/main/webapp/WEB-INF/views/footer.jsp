@@ -10,6 +10,11 @@
     <div class="copyright text-center my-auto bg-white">
       <span>Copyright &copy; Dawid Dziedzic 2022</span>
     </div>
+    <div>
+      <a href="#">Privacy Policy</a>
+      &middot;
+      <a href="#">Terms &amp; Conditions</a>
+    </div>
   </div>
 </footer>
 <!-- End of Footer -->

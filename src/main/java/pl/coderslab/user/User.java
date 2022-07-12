@@ -18,10 +18,4 @@ public class User {
     private String email;
     private String textArea;
     private double loyaltyDiscount;
-    public User(String name, String surname, String email, String textArea) {
-        this.name = name;
-        this.surname = surname;
-        this.email = email;
-        this.textArea = textArea;
-    }
 }

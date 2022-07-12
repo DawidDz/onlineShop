@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AddProductController {
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
-    public String promotions() {
+    public String addProduct() {
         return "add";
     }
 }
