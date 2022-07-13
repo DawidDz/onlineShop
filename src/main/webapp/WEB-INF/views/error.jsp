@@ -23,6 +23,6 @@
     <br>
     <br>
     <br>
-    <p class="center bg-danger">Error. Invalid data. Fill in the form again.</p>
+    <p class="center bg-danger">Error. Invalid data.</p>
 </div>
 <%@ include file="/WEB-INF/views/footer.jsp" %>

@@ -6754,6 +6754,10 @@ button.bg-dark:focus {
   font-size: 2rem;
 }
 
+.color-purple {
+  color: #942dba;
+}
+
 .align-items-start {
   align-items: flex-start !important;
 }

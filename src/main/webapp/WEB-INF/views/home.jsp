@@ -13,7 +13,7 @@
     <div class="d-sm-flex align-items-center justify-content-between">
         <h1 class="h3 mb-0 text-gray-800">List of products</h1>
         <a href="<c:url value="/add"/>" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-            <i class="fas fa-download fa-sm text-white-50"></i> Add product</a>
+            <i class="text-white-50"></i> Add product</a>
         <a href="<c:url value="/logouted"/>" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
             <i class="fas fa-download fa-sm text-white-50"></i> Logout</a>
     </div>
@@ -30,22 +30,22 @@
                     <th>Category</th>
                     <th>Action</th>
                 </tr>
-                <c:forEach items="${products}" var="product">
-                    <tr>
-                        <td>${product.id}</td>
-                        <td>${product.name}</td>
-                        <td>${product.price}</td>
-                        <td>${product.quantity}</td>
-                        <td>${product.newLimitedProduct}</td>
-                        <td>${product.category}</td>
-                        <td>
-                            <a href='<c:url value="/delete?id=${product.id}"/>'>Delete</a>
-                            <a href='<c:url value="/edit?id=${product.id}"/>'>Edit</a>
-                        </td>
-                    </tr>
-                </c:forEach>
+                <c:forEach items="${product}" var="product">
+                <tr role="row" class="odd">
+                    <td>${product.id}</td>
+                    <td>${product.name}</td>
+                    <td>${product.price}</td>
+                    <td>${product.quantity}</td>
+                    <td>${product.newLimitedProduct}</td>
+                    <td>${product.category.productCategory}</td>
+                    <td>
+                        <a href='<c:url value="/delete/${product.id}"/>' class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Delete</a>
+                        <a href='<c:url value="/edit/${product.id}"/>' class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Edit</a>
+                    </td>
+                    </c:forEach>
+                </tr>
             </table>
         </div>
     </div>
-    </div>
+</div>
 <%@ include file="/WEB-INF/views/footer.jsp" %>

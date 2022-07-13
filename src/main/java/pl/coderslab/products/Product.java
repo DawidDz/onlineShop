@@ -1,6 +1,8 @@
 package pl.coderslab.products;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import pl.coderslab.category.Category;
 
@@ -9,7 +11,8 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-@Table(name = "products")
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
