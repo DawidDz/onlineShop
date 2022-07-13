@@ -20,11 +20,11 @@
             <i class="fas fa-download fa-sm text-white-50"></i> Logout</a>
     </div>
     <form:form action="add" method="post" modelAttribute="product" class="discovery-form">
-        <input path="name" placeholder="Product name" type="text"/>
-        <input path="price" placeholder="Price" type="text"/>
-        <input path="quantity" placeholder="Quantity" type="text"/>
-        <input path="newLimitedProduct" placeholder="Is new limited product? Write: true or false" type="text"/>
-        <input path="category" placeholder="Category id" type="text"/>
+        <input name="name" placeholder="Product name" type="text"/>
+        <input name="price" placeholder="Price" type="text"/>
+        <input name="quantity" placeholder="Quantity" type="text"/>
+        <input name="newLimitedProduct" placeholder="Is new limited product? Write: true or false" type="text"/>
+        <input name="category" placeholder="Category id" type="text"/>
         <input type="submit" value="Send" class="discovery-form-button">
     </form:form>
 </div>

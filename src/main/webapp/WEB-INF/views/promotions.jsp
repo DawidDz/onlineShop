@@ -15,6 +15,23 @@
         <a href="<c:url value="/logouted"/>" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
             <i class="fas fa-download fa-sm text-white-50"></i> Logout</a>
     </div>
-    <p>TEST</p>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Price On Promotion</th>
+                    <th>Quantity</th>
+                </tr>
+                <c:forEach items="${promotion}" var="promotion">
+                <tr role="row" class="odd">
+                    <td>${promotion.product.name}</td>
+                    <td>${promotion.priceWithPromotion}</td>
+                    <td>${promotion.product.quantity}</td>
+                    </c:forEach>
+                </tr>
+            </table>
+        </div>
+    </div>
 </div>
 <%@ include file="/WEB-INF/views/footer.jsp" %>
