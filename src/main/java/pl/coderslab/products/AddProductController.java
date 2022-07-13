@@ -28,7 +28,10 @@ public class AddProductController {
     }
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public String saveProduct(Product product) {
+    public String saveProduct(@Valid Product product, BindingResult result) {
+        if (result.hasErrors()) {
+            return "error";
+        }
         productRepository.save(product);
         return "redirect:/";
     }

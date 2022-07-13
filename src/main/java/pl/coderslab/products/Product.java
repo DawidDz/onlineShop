@@ -7,6 +7,7 @@ import lombok.Setter;
 import pl.coderslab.category.Category;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 
 @Entity
 @Getter
@@ -17,6 +18,7 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Size(min = 3, max = 30)
     private String name;
     private double price;
     private double quantity;
